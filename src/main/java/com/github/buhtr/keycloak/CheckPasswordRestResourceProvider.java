@@ -14,7 +14,7 @@ import org.keycloak.models.UserProvider;
 import org.keycloak.services.resource.RealmResourceProvider;
 
 /**
- * @author Igor Slusarenko (buhtr@ya.ru)
+ * @author Igor Slusarenko
  */
 @Slf4j
 @RequiredArgsConstructor

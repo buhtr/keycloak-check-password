@@ -8,14 +8,14 @@ import org.keycloak.services.resource.RealmResourceProvider;
 import org.keycloak.services.resource.RealmResourceProviderFactory;
 
 /**
- * @author Igor Slusarenko (buhtr@ya.ru)
+ * @author Igor Slusarenko
  */
 @AutoService(RealmResourceProviderFactory.class)
 public class CheckPasswordRestResourceProviderFactory implements RealmResourceProviderFactory {
 
   /**
    * The rest endpoint can be accessed by the following path
-   * /realms/<realm-name>/check-password/<login>?password=<value>
+   * /realms/<realm-name>/check-password/login?password=<value>
    */
   private static final String PROVIDER_ID = "check-password";
 
